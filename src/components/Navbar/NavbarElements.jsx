@@ -28,7 +28,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `
 
-/* 继承路由的Link抱歉 相当于 a标签然后进行样式的修改 */
+/* 继承路由的Link标签 相当于 a标签然后进行样式的修改 */
 export const NavLogo = styled(LinkR)`
   color: #ffffff;
   justify-self: flex-start;
@@ -96,7 +96,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #08b46c;
   white-space: nowrap;
   padding: 10px 22px;
   color: #010606;
